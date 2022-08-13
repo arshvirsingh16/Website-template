@@ -1,0 +1,177 @@
+body{
+background: #202638;
+color: #ffff;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif; 
+}
+
+/*HEADER CSS*/
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.links{
+  display:flex;
+  justify-content:center;
+}
+
+.links p{
+  margin: 10px;
+}
+
+/*UNDER HEADER. FIRST BLOCK*/
+.main{
+  width:350px;
+  font-size: 20px;
+  margin-left:180px;
+  margin-top:50px;
+  background: #202638;
+  height:150px;
+}
+
+/*CSS FOR SIGN UP BUTTON*/
+.button{
+  background-color: #4280fc;
+  width:100px;
+  text-align:center;
+  padding: 5px 12px 5px 12px;
+  border:#4280fc;
+  border-style:solid;
+  border-radius:10px;
+  font-size:17px;
+}
+
+.button a{
+  text-decoration:none;
+  color:#ffff;
+}
+
+/*MAIN IMAGE*/
+.first{
+  height:230px;
+  width:500px;
+  float:right;
+  margin-top:50px;
+  margin-right:180px;
+}
+
+  
+/*SECOND BLOCK*/
+.secondary{
+  color:black;
+  background:white;
+  margin-top:150px;
+  height:400px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  
+  align-items:center;
+}
+
+
+/*4 IMAGES WITH TEXT*/
+.secondary img{
+  background-color: black;
+  border: blue;
+  border-style: solid;
+  border-radius:10px;
+  float:none;
+  justify-content:center;
+  height:125px;
+  width:125px;
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.secondary h1{
+  font-size:30px;
+}
+
+
+
+/*makes words beneath pictures to be in a row instead of column*/
+.words{
+  display:flex;
+  margin-left:20px;
+  margin-top:-10px;
+  
+}
+
+.words p{
+  height:125px;
+  width:125px;
+  margin-left:20px;
+ 
+}
+
+.tertiary{
+  background:#b3b1b1;
+  margin-top:0px;
+  height:400px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+
+.quote{
+  font-size: 30px;
+}
+
+.author{
+  color:black;
+  margin-left:93.5px;
+  margin-top:-30px;
+}
+
+.last{
+  background: #ffff;
+  height:300px;
+  margin-top:-20px;
+  display:flex;
+  
+}
+
+.abutton{
+  background: #4280fc;
+  height:max-content;
+  border:#4280fc;
+  border-style:solid;
+  border-radius:10px;
+  margin:auto;
+  padding:10px;
+  padding-left:110px;
+  padding-right:110px;
+  display:flex;
+  
+}
+
+.cbutton{
+  border:#ffff;
+  border-style:solid;
+  border-radius:10px;
+  width:100px;
+  padding: 5px 12px 5px 12px;
+  margin:30px auto 30px 190px;
+  text-align:center;
+}
+
+.cbutton a{
+  color:#ffff;
+  text-decoration:none;
+  padding: 10px;
+  font-size:17px;
+}
+
+.abutton p{
+  margin-top:-20px;
+}
+
+.subtitle{
+  color: #e6e6e6;
+  font-size:17px;
+}
+
